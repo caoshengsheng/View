@@ -10,8 +10,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ipc.sean.view.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <com.ipc.sean.view.TestButton
+        android:id="@+id/button2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="我可以滑动" />
 </RelativeLayout>
